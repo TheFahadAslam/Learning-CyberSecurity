@@ -1,0 +1,15 @@
+Dns Spoofing
+
+Tools for finding dns records ( dnsenum , whois ( not reliable ) )
+
+1-Using of dnsenum and whois
+
+i- dnsenum [Domian Name]
+
+ii- whois [Domian Name]
+
+2- We found A record and now using A record to find out open ports/service + version
+
+i- Tool for that is nmap
+
+nmap -sV ( For services + version ) [ A record ]
