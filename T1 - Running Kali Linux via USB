@@ -1,0 +1,51 @@
+To begin with, we have to install Kali Linux
+{ Why Linux? 
+
+The biggest reason we turn to Linux is because it is far more accessible to a wider range of people than Windows OS offers. 
+Linux is free, open-source, and provides a well-integrated command-line interface for users to customize the OS.
+This means anyone can modify Linux to create their programs and software. Since the most important thing for a hacker is not to be tracked. 
+Linux is easy to install and works well on old and weak systems; therefore, hackers frequently buy old laptops or systems, install Linux, perform their work, and then dispose of the device,
+However, this does not work well for other operating systems.
+}
+
+*
+There are different methods to install Kali Linux. But, we would use a USB for work.
+Video Link: https://youtu.be/FYYU9qZ0Pps?si=xuMDGxFHQhcxSw9U {if you want to install Kali on USB with persistence}
+
+Installing Live Kali Linux (USB) : (without persistence/for fast, temporary usage)
+1. Download Kali Linux from https://cdimage.kali.org/kali-2024.2/kali-linux-2024.2-live-amd64.iso
+2. Download Rufus from https://github.com/pbatard/rufus/releases/download/v4.5/rufus-4.5.exe 
+
+Now, for installation of Kali Linux insert the USB
+Click on the Rufus.exe which you have downloaded previously, Run it saying "YES" to the pop-up,
+
+img here
+
+Select the USB device, select the linux.iso file and Name it(Whatever you want) and Click on Start.
+(Now, wait for 10-20 mins based on your USB & Machine Speed for the installation )
+
+**
+This doesn't end here, Now to run the Kali Linux on the System 
+Now, you have to go into your BiOS to change the Boot Sequence, to make the USB option Primer than Harddisk(normally the Boot Sequence set the HardDisk 1st, then others )
+
+There are two primary methods to access BIOS on modern Windows computers, and understanding how to access the BIOS is crucial for troubleshooting and configuring your PC's firmware settings.
+Method 1 involves restarting your computer and pressing a specific key during the boot process. This key varies by manufacturer but is typically one of the following: F1, F2, F10, DEL, or ESC. It's essential to press the correct key as soon as the manufacturer's logo appears, but before the operating system loads, to successfully enter the BIOS setup.
+Method 2 leverages the advanced startup options within Windows to navigate to the BIOS without needing to hit a specific key at boot. To use advanced startup to access BIOS through Windows settings, follow these steps:
+Open Settings by clicking the Start menu and selecting the gear icon.
+Go to Update & Security > Recovery.
+Under Advanced Startup, click "Restart now." The computer will reboot to a special menu.
+Choose Troubleshoot > Advanced options > UEFI Firmware Settings.
+Click UEFI firmware settings, then click Restart to change the settings in the BIOS.
+
+1. Disable secure boot (if enabled)
+2. Change the Boot Sequence and then Make the USB come first. Then SAVE change and APPLY and allow stable Boot.
+
+
+***
+Restart you PC
+It will open to Linux Menu Section
+Select Live system (other options are for specific settings)
+
+KAli image
+
+Can View this official page : https://www.kali.org/docs/usb/live-usb-install-with-windows/
